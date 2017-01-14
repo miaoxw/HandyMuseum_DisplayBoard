@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cn.edu.nju.miaoxw.handymuseum.board.MainActivity"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="南京大学"
+            android:id="@+id/textViewTitle"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewDescription"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="@string/description"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <ImageView
+            android:src="@drawable/school"
+            android:layout_width="210dp"
+            android:id="@+id/imageView"
+            android:layout_height="160dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/linearLayoutProblem">
+
+            <TextView
+                android:text="倒计时"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCountdown"
+                android:gravity="right|center_vertical"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="normal|bold"/>
+
+            <TextView
+                android:text="问题"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewProblemTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Title"/>
+
+            <TextView
+                android:text="@string/problemDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textViewQuestionDescription"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

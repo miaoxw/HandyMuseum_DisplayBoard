@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HandyMuseum_DisplayBoard</string>
+    <string name="description">南京大学坐落于钟灵毓秀、虎踞龙蟠的金陵古都，是一所历史悠久、声誉卓著的百年名校。其前身是创建于1902年的三江师范学堂，此后历经两江师范学堂、南京高等师范学校、国立东南大学、第四中山大学、国立中央大学、国立南京大学等历史时期，于1950年更名为南京大学。1952年，在全国高校院系调整中，南京大学调整出工学、农学、师范等部分院系后与创办于1888年的金陵大学文、理学院等合并，仍名南京大学。校址从四牌楼迁至鼓楼金大原址。</string>
+    <string name="problemDescription">南京大学的前身是创建于###年的三江师范学堂。</string>
+</resources>
